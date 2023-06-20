@@ -82,4 +82,5 @@ public class AuthController {
     public ResponseEntity<List<Usr>> users() {
         return ResponseEntity.ok(usrService.findAll());
     }
+
 }

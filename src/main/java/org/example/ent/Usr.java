@@ -9,6 +9,7 @@ public class Usr {
     private long id;
     @Column(unique = true)
     private String username;
+//    private String name; //TODO
     @Column(unique = true)
     private String email;
     private String password;
